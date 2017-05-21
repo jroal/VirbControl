@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/conTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:text="Waiting for camera" />
+
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickDiscover"
+        android:text="@string/findButton" />
+
+    <Button
+        android:id="@+id/photoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickPhoto"
+        android:text="@string/snapPhoto" />
+
+    <ToggleButton
+        android:id="@+id/recordtoggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="@string/recordToggleOFF"
+        android:textOn="@string/recordToggleON" />
+
+</LinearLayout>

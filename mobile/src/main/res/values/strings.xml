@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Virb Control</string>
+    <string name="action_settings">Settings</string>
+    <string name="findButton">Find Camera</string>
+    <string name="recordToggleON">Stop Recording</string>
+    <string name="recordToggleOFF">Start Recording</string>
+    <string name="snapPhoto">Take Photo</string>
+</resources>
